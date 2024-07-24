@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <title>Desafio final</title>
+</head>
+<body>
+    <img src="/img/Logo_azul.png" alt="logo">
+    <div class="contenedor-principal">
+        <div class="texto-principal">
+            <textarea type="text" id="inputTexto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedor-botones">
+                <div class="contenedor-icono" id="tooltip">
+                    <img src="/img/jam--alert-f.png" alt="icono">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <button onclick="encriptar()">Encriptar</button>
+                <button onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="area-final" id="area-final">
+            <div class="contenedorImagenYTexto">
+                <textarea type="text" id="outputTexto" class="input"></textarea>
+                <img src="/img/Muñeco.png" alt="muñeco" class="img2" id="img2">
+                <p class="no" id="texto1">Ningún mensaje fue encontrado</p>
+                <p id="texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="copiarTexto" class="copiarTexto" onclick="copiarAlPortapapeles()">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Jesús D. Rodríguez Varela desarrollador frontend</p>
+    </footer>
+    <script src="funcion.js"> 
+
+    </script>
+</body>
+</html>

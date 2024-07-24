@@ -1,0 +1,20 @@
+/******* colores primarios ********/
+
+:root {
+    --primario-uno: #28292B;
+    --primario-blanco: #FFFFFF;
+    --primario-azul: #214389;
+    --fondo-uno: #D8DFE8;
+}
+
+/******* Fuentes ********/
+
+:root {
+    --inter: "Inter", sans-serif;
+}
+
+/****** Iconos ******/
+
+:root {
+    --icono: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='-2 -1.5 24 24'%3E%3Cpath fill='%23495057' d='M10 20.393c-5.523 0-10-4.477-10-10c0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10m0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1m0 10a1 1 0 1 0 0-2a1 1 0 0 0 0 2'/%3E%3C/svg%3E");
+}
